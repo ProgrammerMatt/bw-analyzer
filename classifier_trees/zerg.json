@@ -1,11 +1,64 @@
 {
-    "74": {
-        "Spawning Pool": {}
-    },
-    "94": {
-        "Spawning Pool": {}
-    },
-    "105": {
-        "Hatchery": {}
-    }
+    "67": [
+        {
+            "Spawning Pool": {
+                "100": [
+                    {
+                        "Hatchery": {
+                            "build": "9 pool into hatchery"
+                        }
+                    }
+                ],
+                "build": "9 Pool"
+            }
+        }
+    ],
+    "74": [
+        {
+            "Spawning Pool": {
+                "build": "Overpool"
+            }
+        }
+    ],
+    "88": [
+        {
+            "Spawning Pool": {
+
+                "build": "11 Pool"
+            }
+        }
+    ],
+    "94": [
+        {
+            "Spawning Pool": {
+                "101": [
+                    {
+                        "Extractor": {
+                            "build": "12 Pool into 11 Extractor"
+                        }
+                    }
+                ],
+                "build": "12 Pool"
+            }
+        },
+        {
+            "Extractor": {
+                "99": [
+                    {
+                        "Spawning Pool": {
+                            "build": "12 Gas into 11 Pool"
+                        }
+                    }
+                ],
+                "build": "12 Gas"
+            }
+        }
+    ],
+    "98": [
+        {
+            "Hatchery": {
+                "build": "11 Hatchery"
+            }
+        }
+    ]
 }

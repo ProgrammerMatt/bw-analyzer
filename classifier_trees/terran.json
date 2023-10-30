@@ -2,7 +2,9 @@
     "56": {
         "Supply Depot": {
             "95": {
-                "Barracks": {}
+                "11 Barracks": {
+                    "isBuild": true
+                }
             }
         }
     }
