@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from models.zerg_csv import *
 from kmeans import kmeans
 from knearestneighbor import knn
 from randomforest import random_forest
@@ -18,16 +17,13 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 
-from models.zerg_csv import zerg_columns
-from models.base_csv import base_columns
-
 
 #zergCSV, terranCSV = analyzeReplays()
 
 url = "zerg_classified.csv"
 
 # Read in the dataset
-df = pd.read_csv(url, names=base_columns + zerg_columns)
+df = pd.read_csv(url)
 
 y = df.iloc[1:, 2].values #build
 X = df.iloc[1:, 0:6] 
